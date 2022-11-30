@@ -11,5 +11,7 @@ namespace ToDoAPI.Data
         }
 
         public DbSet<ToDo> ToDos => Set<ToDo>();
+
+        public DbSet<User> Users => Set<User>();
     }
 }
