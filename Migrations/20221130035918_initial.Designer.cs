@@ -11,7 +11,7 @@ using ToDoAPI.Data;
 namespace ToDoAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221129095900_initial")]
+    [Migration("20221130035918_initial")]
     partial class initial
     {
         /// <inheritdoc />
